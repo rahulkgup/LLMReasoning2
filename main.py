@@ -18,7 +18,8 @@ def print_hi(name):
     print_tree(thought_tree)
     print("DEBUG: Printed the thought tree.")
 
-    best_thought = find_best_thought(thought_tree)
+    # Pass both 'thought_tree' and 'initial_prompt' to the function
+    best_thought = find_best_thought(thought_tree, initial_prompt)
     print("DEBUG: Found the best thought.")
 
     print("\nBest Thought:")
